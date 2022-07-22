@@ -88,7 +88,7 @@
   fill: #000000;
 }
 
-.form__submit-btn {
+.submit-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,10 +108,10 @@
   transform: scale(1);
   transition: transform 125ms var(--timing-function);
 }
-.form__submit-btn:hover {
+.submit-btn:hover {
   transform: scale(1.05);
 }
-.form__submit-icon {
+.submit-btn__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;

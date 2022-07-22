@@ -421,9 +421,6 @@
                 </ul>
               </div>
             </li>
-                </ul>
-              </div>
-            </li>
           </ul>
         </div>
       </section>
@@ -454,13 +451,13 @@
                 <use href="./images//symbol-defs.svg#icon-customer4"></use></svg
             ></a>
           </li>
-         <li class="customers-item">
+          <li class="customers-item">
             <a href="" class="link customers-item__link"
               ><svg class="customers-item__icon" width="106" height="60">
                 <use href="./images//symbol-defs.svg#icon-customer5"></use></svg
             ></a>
           </li>
-        <li class="customers-item">
+          <li class="customers-item">
             <a href="" class="link customers-item__link"
               ><svg class="customers-item__icon" width="106" height="60">
                 <use href="./images//symbol-defs.svg#icon-customer6"></use></svg
@@ -468,7 +465,7 @@
           </li>
         </ul>
       </section>
-      <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop backdrop--is-hidden" data-modal>
         <div class="modal">
           <button class="modal__close-btn" type="button" data-modal-close>
             <svg class="modal__close-icon">
@@ -561,7 +558,7 @@
                 >
               </span>
             </label>
-            <button class="form__submit-btn" type="submit">Отправить</button>
+            <button class="submit-btn" type="submit">Отправить</button>
           </form>
         </div>
       </div>
@@ -573,7 +570,9 @@
             <a class="logo" href="" lang="en"
               >Web<span class="footer__logo-accent">Studio</span></a
             >
-            <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
+            <address class="footer__address">
+              г. Киев, пр-т Леси Украинки, 26
+            </address>
             <ul class="footer__contacts list">
               <li class="footer__item">
                 <a href="mailto:info@devstudio.com" class="footer__email"
@@ -645,7 +644,9 @@
             </ul>
           </div>
           <div class="footer-submitblock">
-            <strong class="footer-submitblock__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</strong>
+            <strong class="footer-submitblock__title"
+              >ПОДПИШИТЕСЬ НА РАССЫЛКУ</strong
+            >
             <form class="submit" name="submit e-mail" autocomplete="on">
               <label class="visually-hidden" for="submit-email">Почта</label>
               <input
@@ -656,9 +657,9 @@
                 placeholder="E-mail"
                 required=""
               />
-              <button class="submit__btn" type="submit">
+              <button class="submit-btn" type="submit">
                 Подписаться
-                <svg class="submit__icon">
+                <svg class="submit-btn__icon">
                   <use href="./images/symbol-defs.svg#icon-send"></use>
                 </svg>
               </button>

@@ -10,8 +10,15 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.is-hidden {
+
+.backdrop--is-hidden {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   visibility: hidden;
   pointer-events: none;
   transition: visibility var(--defaul-duration) var(--timing-function);
+
+  transform: translate(-50%, -50%) scale(0.2);
+  opacity: 0;
 }

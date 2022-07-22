@@ -122,10 +122,15 @@ img {
   overflow: hidden;
 }
 
-.is-hidden {
+.backdrop--is-hidden {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   visibility: hidden;
   pointer-events: none;
   transition: visibility var(--defaul-duration) var(--timing-function);
+  transform: translate(-50%, -50%) scale(0.2);
+  opacity: 0;
 }
 
 .container {
@@ -265,7 +270,7 @@ img {
   fill: #000000;
 }
 
-.form__submit-btn {
+.submit-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -286,11 +291,11 @@ img {
   transition: transform 125ms var(--timing-function);
 }
 
-.form__submit-btn:hover {
+.submit-btn:hover {
   transform: scale(1.05);
 }
 
-.form__submit-icon {
+.submit-btn__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
@@ -503,7 +508,6 @@ img {
 }
 
 .modal {
-  position: relative;
   padding: var(--modal-padding);
 }
 
@@ -670,15 +674,7 @@ img {
   background-color: var(--modal-submit-btn-hover);
 }
 
-.backdrop.is-hidden .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.2);
-  opacity: 0;
-}
-
-.backdrop .modal {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
