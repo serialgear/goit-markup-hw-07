@@ -1,0 +1,40 @@
+.socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.socials-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: transform 125ms var(--timing-function);
+}
+.socials-item__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials-item__link:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+}
+.socials-item__link:hover .socials-item__icon {
+  fill: var(--primary-white-color);
+  animation: rotation 2s forwards infinite ease-out 0.5s;
+}
+.socials-item__icon {
+  fill: #afb1b8;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* Произвольное количество промежуточных кадров */
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

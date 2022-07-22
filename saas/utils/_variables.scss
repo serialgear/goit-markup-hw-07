@@ -1,0 +1,82 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-background-color: #c4c4c4;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
+  --header-menu-color: #212121;
+  --header-link-color: #757575;
+  --header-border-color: #ececec;
+  --footer-address-color: #ffffff;
+  --footer-cta-color: #ffffff;
+  --footer-social-icons-bg: rgba(255, 255, 255, 0.1);
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-form-input-color: rgba(255, 255, 255, 0.6);
+  --footer-form-input-border: 1px solid rgba(255, 255, 255, 0.3);
+  --hero-title-color: #ffffff;
+  --button-hero-hover-bg: #188ce8;
+  --button-accent-color: #ffffff;
+  --button-accent-bg: #2196f3;
+  --button-color: #212121;
+  --button-bg: #f5f4fa;
+  --h2-color: #212121;
+  --h3-color: #212121;
+  --p-color: #757575;
+  --body-bg: #ffffff;
+  --footer-bg: #2f303a;
+  --hero-bg: #c4c4c4;
+  --header-bg: #ffffff;
+  --border-line-color: #eeeeee;
+  --our-team-section-bg: #f5f4fa;
+  --card-bg: #ffffff;
+  --destination-description-color: #ffffff;
+  --destination-description-bg: rgba(47, 48, 58, 0.8);
+
+  --company-fill-color: #afb1b8;
+  --perculiarities-bg: #f5f4fa;
+
+  --team-social-icons-bg: transparent;
+  --team-social-icons-color: #afb1b8;
+  --team-social-icons-hover-color: #ffffff;
+
+  --clients-icons-color: #afb1b8;
+  --clients-border-color: #afb1b8;
+  --clients-bg: transparent;
+  --main-border-radius: 4px;
+
+  --perculiarities-icon-width: 70px;
+  --perculiarities-icon-height: 70px;
+
+  --social-icon-width: 20px;
+  --social-icon-height: 20px;
+
+  --defaul-duration: 250ms;
+
+  --backdrop-bg: rgba(0, 0, 0, 0.2);
+  --modal-bg: #ffffff;
+  --modal-board-radius: 4px;
+  --modal-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --modal-close-btn-border: 1px solid rgba(0, 0, 0, 0.1);
+  --modal-padding: 40px;
+  --modal-text-color: #757575;
+  --modal-title-color: #212121;
+  --modal-icon-color: #212121;
+  --modal-text-size: 14px;
+  --modal-icon-close-color: #000000;
+  --modal-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --modal-input-border: 1px solid rgba(33, 33, 33, 0.2);
+  --modal-input-border-accent: 1px solid #2196f3;
+  --modal-padding-horizontal: 16px;
+  --modal-padding-vertical: 12px;
+  --modal-placeholder-color: rgba(117, 117, 117, 0.5);
+  --modal-label-color: #757575;
+
+  --modal-form-width: 448px;
+  --modal-submit-btn-color: #ffffff;
+  --modal-submit-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --modal-submit-btn-hover: #188ce8;
+}

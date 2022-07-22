@@ -1,0 +1,14 @@
+/* backdrop */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+
+  background-color: var(--backdrop-bg);
+
+  visibility: visible;
+
+  transition: visibility var(--defaul-duration) var(--timing-function);
+}

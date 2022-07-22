@@ -1,0 +1,20 @@
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature-item {
+  width: 270px;
+
+  &__box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}

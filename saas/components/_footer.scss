@@ -1,0 +1,126 @@
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__address {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.footer__contacts {
+  margin-top: 9px;
+}
+.footer__contacts .item:last-child {
+  margin-top: 9px;
+}
+.footer__email {
+  display: block;
+  font-family: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transform: scale(1);
+  transition: transform 125ms var(--timing-function);
+}
+.footer__phone {
+  display: block;
+  font-family: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transform: scale(1);
+  transition: transform 125ms var(--timing-function);
+}
+
+.footer__email:hover,
+.footer__email:focus {
+  color: var(--accent-color);
+  transform: scale(1.05);
+}
+.footer__phone:hover,
+.footer__phone:focus {
+  color: var(--accent-color);
+  transform: scale(1.05);
+}
+
+.footer__logo-accent {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 70px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-socialblock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.footer-socialblock__title {
+  margin: 0;
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.footer-socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-socials__icon {
+  fill: var(--primary-white-color);
+}
+.footer-socials__link:hover {
+  background-color: var(--accent-color);
+  animation: rotation 2s forwards infinite ease-out 0.5s;
+}
+.footer-submitblock__title {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.submit {
+  display: flex;
+  align-items: center;
+}
+.submit__input {
+  display: flex;
+  align-items: center;
+  min-width: 358px;
+  height: 50px;
+  padding: 0;
+  padding-left: 16px;
+  margin-right: 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
