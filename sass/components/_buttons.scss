@@ -17,6 +17,7 @@
   border: 0;
   transform: scale(1);
   transition: transform 125ms var(--timing-function);
+  cursor: pointer;
 }
 .button-secondary {
   background: #f5f4fa;

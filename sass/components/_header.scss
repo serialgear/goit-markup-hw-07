@@ -31,22 +31,23 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  gap: 50px;
 
-  &__item + &__item {
-    margin-left: 50px;
-  }
-  &__item {
-    position: relative;
+  &__header {
     margin-left: 93px;
   }
 
-  &__item .link {
+  &__item {
+    position: relative;
+  }
+
+  &__link {
     display: block;
     color: var(--title-text-color);
     text-decoration: none;
     padding: 32px 0;
   }
-  &__item .link::after {
+  &__link::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -60,24 +61,24 @@
     transform: scaleX(0);
     transition: transform 250ms var(--timing-function);
   }
-  &__item .link:hover::after {
+  &__link:hover::after {
     transform: scaleX(1);
   }
 
-  &__item .link:hover,
-  &__item .link:focus {
+  &__link:hover,
+  &__link:focus {
     color: var(--accent-color);
   }
 
-  &__item .link.current {
+  &__link--current {
     color: var(--accent-color);
     text-decoration: none;
   }
-  &__item .link.current::after {
+  &__link--current::after {
     transform: scaleX(1);
   }
 }
-.contacts {
+.header-contacts {
   display: flex;
   margin-left: auto;
   font-family: inherit;
@@ -96,7 +97,7 @@
     fill: var(--primary-text-color);
   }
 }
-.header-email {
+.header-contacts__email-link {
   display: flex;
   align-items: center;
   padding: 32px 0;
@@ -105,7 +106,7 @@
   transform: scale(1);
   transition: transform 125ms var(--timing-function);
 }
-.header-phone {
+.header-contacts__phone-link {
   display: flex;
   align-items: center;
   padding: 32px 0;
@@ -114,23 +115,23 @@
   transform: scale(1);
   transition: transform 125ms var(--timing-function);
 }
-.header-email:hover,
-.header-email:focus {
+.header-contacts__email-link:hover,
+.header-contacts__email-link:focus {
   color: var(--accent-color);
   transform: scale(1.05);
 }
-.header-email:hover .contacts__icon,
-.header-email:focus .contacts__icon {
+.header-contacts__email-link:hover .header-contacts__icon,
+.header-contacts__email-link:focus .header-contacts__icon {
   fill: var(--accent-color);
   transform: scale(1.05);
 }
-.header-phone:hover,
-.header-phone:focus {
+.header-contacts__phone-link:hover,
+.header-contacts__phone-link:focus {
   color: var(--accent-color);
   transform: scale(1.05);
 }
-.header-phone:hover .contacts__icon,
-.header-phone:focus .contacts__icon {
+.header-contacts__phone-link:hover .header-contacts__icon,
+.header-contacts__phone-link:focus .header-contacts__icon {
   fill: var(--accent-color);
   transform: scale(1.05);
 }

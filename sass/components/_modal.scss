@@ -1,8 +1,18 @@
 .modal {
-  //   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  background-color: var(--modal-bg);
+  border-radius: var(--modal-board-radius);
+  box-shadow: var(--modal-shadow);
+  transition: opacity var(--defaul-duration) var(--timing-function),
+    transform var(--defaul-duration) var(--timing-function);
   padding: var(--modal-padding);
 }
-
+.modal__backdrop {
+  position: absolute;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -167,16 +177,4 @@
 
 .form-submit-btn:hover {
   background-color: var(--modal-submit-btn-hover);
-}
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 1;
-  background-color: var(--modal-bg);
-  border-radius: var(--modal-board-radius);
-  box-shadow: var(--modal-shadow);
-  transition: opacity var(--defaul-duration) var(--timing-function),
-    transform var(--defaul-duration) var(--timing-function);
 }
